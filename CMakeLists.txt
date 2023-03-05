@@ -10,7 +10,7 @@ find_package(OpenCV REQUIRED)
 
 
 catkin_package(
-        INCLUDE_DIRS include
+        INCLUDE_DIRS
         CATKIN_DEPENDS roscpp cv_bridge
         LIBRARIES ${PROJECT_NAME}
 )
